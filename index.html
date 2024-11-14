@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--MY CSS -->
     <link rel="stylesheet" href="style.css">
     <title>My Portofolio | Safrial Nova Kurnia</title>
@@ -44,8 +46,8 @@
     <!-- JUMBOTRON -->
     <section class="jumbotron text-center">
         <img src="img/Safrial-Alva.png" alt="Safrial Nova Kurnia" width="200" class="rounded-circle img-thumbnail">
-        <h1 class="display-4">Safrial Nova Kurnia</h1>
-        <p class="lead">Web Developer | Content Creator</p>
+        <h1 class="display-4"><strong>Safrial Nova Kurnia</strong></h1>
+        <p class="lead"></p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,122.7C384,139,480,149,576,133.3C672,117,768,75,864,85.3C960,96,1056,160,1152,181.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
     <!-- AKHIR JUMBOTRON -->
@@ -58,7 +60,7 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-right">
                     <p><strong><i>Web Developer | English</i></strong><br>I am a web developer with a strong passion for building visually engaging, functional websites and applications. Skilled in both front-end and back-end development, I craft user-friendly
                         interfaces using HTML, CSS, and JavaScript, while also managing server-side logic and databases to ensure seamless functionality. I thrive on collaborating with designers and project teams to bring concepts to life, and I’m dedicated
                         to continuous learning to stay current with evolving tools and frameworks. My approach balances creativity, technical precision, and a commitment to delivering secure, high-performance solutions that enhance user experience.
@@ -69,7 +71,7 @@
                         yang aman, berkinerja tinggi, dan meningkatkan pengalaman pengguna.
                     </p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
                     <p><strong><i>Content Creator | English</i></strong><br>I am a passionate content creator dedicated to crafting engaging and meaningful content that inspires and educates audiences on digital platforms. With a strong ability to develop
                         creative ideas that align with current trends and audience needs, I produce various types of content—from visuals and videos to written pieces—optimized with SEO techniques and hashtags for greater accessibility. I also have experience
                         in analyzing content performance, allowing me to continuously improve strategies to achieve a greater impact. For me, content creation is a blend of creativity, data, and the ability to build strong connections with the audience.
@@ -96,7 +98,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500">
                         <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -104,7 +106,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
                         <img src="img/projects/2.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -112,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                         <img src="img/projects/3.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -120,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
                         <img src="img/projects/4.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -128,7 +130,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
                         <img src="img/projects/5.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -140,6 +142,68 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L40,160C80,160,160,160,240,133.3C320,107,400,53,480,74.7C560,96,640,192,720,202.7C800,213,880,139,960,112C1040,85,1120,107,1200,112C1280,117,1360,107,1400,101.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
     </section>
     <!-- AKHIR PROJECTS -->
+    <!-- GALLERY -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <h2>Gallery</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/thumbnail/Genjutsu.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/thumbnail/Murasaki.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/thumbnail/Maiki.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/thumbnail/Masked Ninja.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/thumbnail/Mirai.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/thumbnail//Mecha-Ronin.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/thumbnail/Kaso no Kijin.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/thumbnail/Mugiwara.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/thumbnail/Mugiwara Full Shot Front.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/thumbnail/Mugiwara Back Design Full Shot.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- AKHIR GALLERY -->
     <!-- CONTACT -->
     <section id="contact">
         <div class="container">
@@ -187,9 +251,57 @@
     </footer>
     <!-- AKHIR FOOTER -->
 
-
+    <!-- BOOTSRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    <!-- ANIMASI AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const galleryImage = document.querySelectorAll('.gallery-img');
+
+        galleryImage.forEach((img, i) => {
+            img.dataset.aos = 'fade-down';
+            img.dataset.aosDelay = i * 100;
+            img.dataset.aosDuration = 1000;
+        })
+
+        AOS.init({
+            once: true,
+            duration: 2000,
+        });
+    </script>
+
+    <!-- ANIMASI GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.lead', {
+            duration: 2,
+            delay: 1.5,
+            text: 'Web Developer | Content Creator',
+        })
+        gsap.from('.jumbotron img', {
+            duration: 1,
+            rotateY: 360,
+            opacity: 0,
+        });
+        gsap.from('.navbar', {
+            duration: 1.5,
+            y: '-100%',
+            opacity: 0,
+            ease: 'bounce',
+        });
+        gsap.from('.display-4', {
+            duration: 1,
+            x: -50,
+            opacity: 0,
+            delay: 0.5,
+            ease: 'back',
+        });
+    </script>
+
+    <!-- DATABASE SEDERHANA, MENGGUNAKAN GFORM -->
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwVjeLNVz2hsS4hvHiQBxzZJ-8JioHL0EnxKVaSe84Cx9xotz2Rs-8m7WhufcXkxIzA7g/exec'
         const form = document.forms['safrial-contact-form']
